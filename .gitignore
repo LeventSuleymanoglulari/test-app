@@ -23,6 +23,10 @@ DerivedData/
 .swiftpm/
 .build/
 
+# Node (Windows workspace)
+windows/**/node_modules/
+windows/**/dist/
+
 # Dependency and packaging outputs
 Pods/
 Carthage/Build/
