@@ -124,6 +124,8 @@ haritasında açık iştir.
 
 ## Kapsam dışı
 
-Windows, Linux, Steam/Epic hesap bağlantısı, bulut
-eşitlemesi, kullanıcı hesabı, arkadaş sistemi, herkese açık profil ve oyunu
-uygulamadan başlatma ilk sürüm kapsamı dışındadır.
+macOS uygulaması Windows veya Linux hedeflemez. `windows/` klasöründeki ayrı
+uygulama aynı kütüphane kurallarını Windows'ta çalıştırır ve Mac SwiftData
+dosyasını açmaz. Linux, Steam/Epic hesap bağlantısı, bulut eşitlemesi,
+kullanıcı hesabı, arkadaş sistemi, herkese açık profil ve oyunu uygulamadan
+başlatma ilk sürüm kapsamı dışındadır.

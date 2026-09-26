@@ -49,6 +49,23 @@ SwiftData depoları, yerel katalog yanıtları ve ayrı bir Keychain hizmetindek
 sentetik anahtar kullanılır. Keychain kontrolü sonunda test anahtarını siler.
 Arayüzde yeniden açılış testi UUID ile ayrılmış geçici bir disk deposu kullanır.
 
+## Windows
+
+`windows/` ayrı bir Electron uygulamasıdır. Mac koleksiyon dosyasını açmaz.
+Oyunlar `Documents/Oyun Kütüphanesi/library.json` dosyasına yazılır. RAWG
+anahtarı bu dosyada durmaz.
+
+Node.js 24 gerekir.
+
+```sh
+cd windows
+npm install
+npm test
+npm start
+```
+
+`npm test` kütüphane kurallarını çalıştırır. `npm start` pencereyi açar.
+
 ## macOS önizleme paketi
 
 ```sh

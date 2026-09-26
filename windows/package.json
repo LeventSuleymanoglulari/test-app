@@ -1,0 +1,12 @@
+{
+  "name": "oyun-windows",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm test -w @oyun/library",
+    "typecheck": "npm run typecheck -w @oyun/library && npm run typecheck -w @oyun/desktop",
+    "start": "npm start -w @oyun/desktop"
+  }
+}
