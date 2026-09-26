@@ -59,6 +59,7 @@ Node.js 24 gerekir.
 
 ```sh
 cd windows
+npm install
 npm test
 npm start
 ```
